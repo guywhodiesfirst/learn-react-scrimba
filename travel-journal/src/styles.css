@@ -27,6 +27,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 } 
 
 nav > h1 {
@@ -40,6 +43,7 @@ nav > h1 {
 }
 
 .cards-container {
+  margin-top: 75px;
   padding: 45px 80px 30px 45px;
 }
 
